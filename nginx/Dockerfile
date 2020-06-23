@@ -1,4 +1,4 @@
-FROM digitalocean.com/alpine:latest
+FROM tai543/alpine:latest
 
 LABEL MAINTAINER="tatiana tai.delgadillo@gmail.com"
 
