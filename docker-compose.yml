@@ -42,8 +42,8 @@ services:
             context: nginx
             dockerfile: Dockerfile
         image: digitalocean.com/webserver:latest
-            container_name: webserver
-            restart: unless-stopped
+        container_name: webserver
+        restart: unless-stopped
         environment:
             APP_ENV: "prod"
             APP_NAME: "webserver"
